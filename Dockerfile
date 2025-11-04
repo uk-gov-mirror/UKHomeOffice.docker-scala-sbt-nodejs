@@ -1,5 +1,7 @@
 FROM node:20-bookworm
 
+RUN node --version
+
 RUN export PATH="/usr/local/sbt/bin:$PATH"
 
 RUN apt update
